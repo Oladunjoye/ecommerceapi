@@ -23,7 +23,7 @@ class ProductCollection extends Resource
             'discount' =>$this->discount,
             'href' => [
 
-                'link' => route('products.show',$this->id)
+                'link' => route('products.show', $this->id)
 
 
             ]
