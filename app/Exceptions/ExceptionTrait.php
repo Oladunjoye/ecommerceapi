@@ -29,7 +29,7 @@ public function apiException($request, $e){
 
         }
 
-  return parent::render($request, $exception);
+  return parent::render($request, $e);
 
 }
 
